@@ -22,6 +22,7 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">Sobre Nosotros</a></li>
                 <li><a href="contact.html">Contacto</a></li>
+                <li><a href="login.html">Login</a></li>
                 <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
                 <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
@@ -70,7 +71,7 @@
         <h2>Productos Destacados</h2>
         <p>Mas Relevantes</p>
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html';">
+            <div class="pro" id="zapaf1" onclick="window.location.href='sproduct.html';">
                 <img src="../img/products/f1.jpg" alt="">
                 <div class="des">
                     <span>nike</span>
@@ -86,11 +87,11 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf2">
                 <img src="../img/products/f2.jpg" alt="">
                 <div class="des">
-                    <span>nike</span>
-                    <h5>Nike Air Force 1 Blancas</h5>
+                    <span id="spanf2">nike</span>
+                    <h5 id="nombref2">Nike Air Force 1 Blancas</h5>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -98,11 +99,11 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$32499</h4>
+                    <h4 id="preciof2">$32499</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf3">
                 <img src="../img/products/f3.jpg" alt="">
                 <div class="des">
                     <span>nike</span>
@@ -116,9 +117,9 @@
                     </div>
                     <h4>$27499</h4>
                 </div>
-                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                <a href="sproduct.html" onclick="sproduct(zapaf3)"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf4">
                 <img src="../img/products/f4.jpg" alt="">
                 <div class="des">
                     <span>nike</span>
@@ -134,7 +135,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf5">
                 <img src="../img/products/f5.jpg" alt="">
                 <div class="des">
                     <span>puma</span>
@@ -150,7 +151,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf6">
                 <img src="../img/products/f6.jpg" alt="">
                 <div class="des">
                     <span>puma</span>
@@ -166,7 +167,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf7">
                 <img src="../img/products/f7.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -182,7 +183,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapaf8">
                 <img src="../img/products/f8.jpg" alt="">
                 <div class="des">
                     <span>nike</span>
@@ -212,7 +213,7 @@
         <h2>Lanzamientos</h2>
         <p>Productos Nuevos En Stock</p>
         <div class="pro-container">
-            <div class="pro">
+            <div class="pro" id="zapan1">
                 <img src="../img/products/n1.jpg" alt="">
                 <div class="des">
                     <span>wilson</span>
@@ -228,7 +229,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan2">
                 <img src="../img/products/n2.jpg" alt="">
                 <div class="des">
                     <span>nike</span>
@@ -244,7 +245,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan3">
                 <img src="../img/products/n3.jpg" alt="">
                 <div class="des">
                     <span>nike</span>
@@ -260,7 +261,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan4">
                 <img src="../img/products/n4.jpg" alt="">
                 <div class="des">
                     <span>asics</span>
@@ -276,7 +277,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan5">
                 <img src="../img/products/n5.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -292,7 +293,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan6">
                 <img src="../img/products/n6.jpg" alt="">
                 <div class="des">
                     <span>asics</span>
@@ -308,7 +309,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan7">
                 <img src="../img/products/n7.jpg" alt="">
                 <div class="des">
                     <span>asics</span>
@@ -324,7 +325,7 @@
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
             </div>
-            <div class="pro">
+            <div class="pro" id="zapan8">
                 <img src="../img/products/n8.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -439,6 +440,7 @@
     </footer>
 
     <script src="../JS/script.js"></script>
+    <script src="../JS/productos.js"></script>
 </body>
 
 </html>
